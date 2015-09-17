@@ -18,3 +18,15 @@ copy 返回要复制到剪切板的内容
 
 PS:1、对于 Zclip的使用要注意一点，不能将被作用的 元素动态生成，否则无法生成 Zclip的透明元素（该元素是绝对定位，浮在被点击元素之上。）
 2、对于使用Zclip的页面要在http模式下打开。
+
+
+配置说明
+path:swf的路径(复制主要是用flash解决不同浏览器的复制)
+copy:待复制的内容, 可以是静态内容, 也可以 return 动态内容
+beforeCopy:复制之前要做的function;
+afterCopy:复制之后要做的function;
+
+提供了3个方法
+show:$(selected).zclip('show');//复制功能有效
+hide:$(selected).zclip('hide');//复制功能无效
+remove:$(selected).zclip('remove');//完全移除复制功能
