@@ -81,8 +81,9 @@ $ gulp img
       1. 将src/img/sprite下的文件夹的.png图片，拼接成sprite图片;
          默认生成两种拼接图片：一是以图片所在文件夹的文件夹名命名的.png图片，另一种是，以文件夹命名@2x.png的拼接图,如图示;
 
-<img src="img/gulp_img.png" alt="生成图片">
-
+<img src="img/gulp_img.png" alt="生成图片"></img>
+```
+```
 <b>pS:</b>
       控制@2x类型的图片是否生成可通过更改
 <strong>config.js</strong><font color="red"> imgRetina</font>
