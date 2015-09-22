@@ -89,9 +89,17 @@ $ gulp img
 <img src="img/gulp_img.png" alt="生成图片"></img>
 <br>
 <b>pS:</b>
-      控制@2x类型的图片是否生成可通过更改
+      1、控制@2x类型的图片是否生成可通过更改
 <strong>config.js</strong><font color="red"> imgRetina</font>
       属性值来控制是否生成@2x图片;
+      <br/>
+      2、如果  <b>imgRetina</b>  属性设为true,然而要被拼接的.png与@2x.png的图片不是成对出现的话，会提示如下错误：
+      <br/>
+<img src="img/imgRetina.png" alt="imgRetina为true时的错误提示">
+      <br>
+      如果    <b>imgRetina:false</b>  时，编译将会正常，但文件夹下的显示如下：
+      <br>
+<img src="img/imgRetina_false.png" alt="imgRetina为false时结果"> 
 
 
       2. 压缩所有image
