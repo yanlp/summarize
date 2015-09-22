@@ -93,7 +93,7 @@ $ gulp img
 <strong>config.js</strong><font color="red"> imgRetina</font>
       属性值来控制是否生成@2x图片;
       <br/>
-      2、如果  <b>imgRetina</b>  属性设为true,然而要被拼接的.png与@2x.png的图片不是成对出现的话，会提示如下错误：
+      2、如果  <b>imgRetina</b>  属性设为true,然而要被拼接的.png与@2x.png的图片不是成对出现的话，会提示如下错误(提示为：文件夹下有5个普通模式的图片，有4个高清图片，图片个数不匹配，因此提示该错误)：
       <br/>
 <img src="img/imgRetina.png" alt="imgRetina为true时的错误提示">
       <br>
@@ -101,8 +101,7 @@ $ gulp img
       <br>
 <img src="img/imgRetina_false.png" alt="imgRetina为false时结果"> 
 
-
-      2. 压缩所有image
+      2. 压缩所有的image,并将压缩后的图片复制到 dist/img/sprite中。
 
 ```
 $ gulp run
@@ -115,6 +114,7 @@ $ gulp run
 ```
 |
 +- src
+|   +- html
 |   +- css
 |   +- scss
 |   +- img
@@ -124,6 +124,7 @@ $ gulp run
 |   +- component
 |   - index.html
 +- dist
+|   +- html
 |   +- css
 |   +- img
 |       +- sprite
