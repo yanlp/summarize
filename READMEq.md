@@ -19,16 +19,29 @@ $ npm install generator-jdm
 ```
 $ npm install yo -g
 ```
+<img src="img/yoDoctor.png"></img>
+<img src="img/yodone.png" alt="全局yo 安装"></img>
+
 然后执行generator-jdm
  
 ```
 $ npm install generator-jdm -g
 ```
 
+<img src="img/generator-jdm.png"></img>
+
 然后执行 yo jdm  就会自动搭好脚手架并装好npm报了
 
 ```
 $ yo jdm
+```
+<img src="img/welcome.png" alt="yo success!">
+
+
+```
+执行 yo jdm并出现以上欢迎界面，接着就会提醒“what your app name？”
+<b>pS:</b> 该处命名可以与根目录相同不会覆盖本目录，也可以写其他的名字
+
 ```
 <img src="img/yoJdm.png"></img>
 
