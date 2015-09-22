@@ -78,7 +78,9 @@ $ gulp build
 $ gulp img
 ```
 
-      1. 将src/img/sprite下的文件夹的png 拼接css sprite并输出sass文件(congif.js中配置是否输出@2x)
+      1. 将src/img/sprite下的文件夹的.png图片，拼接成sprite图片;
+         默认生成两种拼接图片：一是以图片所在文件夹的文件夹名命名的.png图片，另一种是，以文件夹命名@2x.png的拼接图,如图示;
+<img src="img/gulp_img.png" alt="生成图片">
       2. 压缩所有image
 
 ```
