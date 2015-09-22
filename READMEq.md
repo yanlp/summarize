@@ -92,7 +92,7 @@ $ gulp img
       1、控制@2x类型的图片是否生成可通过更改
 <strong>config.js</strong><font color="red"> imgRetina</font>
       属性值来控制是否生成@2x图片;
-      <br/>
+      <br/>       
       2、如果  <b>imgRetina</b>  属性设为true,然而要被拼接的.png与@2x.png的图片不是成对出现的话，会提示如下错误(提示为：文件夹下有5个普通模式的图片，有4个高清图片，图片个数不匹配，因此提示该错误)：
       <br/>
 <img src="img/imgRetina.png" alt="imgRetina为true时的错误提示">
