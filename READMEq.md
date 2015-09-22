@@ -30,7 +30,7 @@ $ npm install generator-jdm -g
 ```
 $ yo jdm
 ```
-<p>Yan Liping</p>
+<img src="img/yoJdm.png"></img>
 
 ### 功能
 ```
