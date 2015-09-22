@@ -40,10 +40,9 @@ $ yo jdm
 
 ```
 执行 yo jdm并出现以上欢迎界面，接着就会提醒“what your app name？”
-
+```
 <b>pS:</b> 该处命名可以与根目录相同不会覆盖本目录，也可以写其他的名字
 
-```
 <img src="img/yoJdm.png"></img>
 
 ### 功能
