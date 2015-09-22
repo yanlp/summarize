@@ -46,8 +46,8 @@ $ yo jdm
 <img src="img/yoJdm.png"></img>
 
 如果提醒出现
-<b>I`m all done. Running <i>npm install</i> <br> 
-for you to install the required dependencies.<br> If this fails,try running the command yourself</b>
+<b>I`m all done. Running <i>npm install</i> 
+for you to install the required dependencies.If this fails,try running the command yourself</b>
       时，需要执行
 
 ```
