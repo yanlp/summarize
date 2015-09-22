@@ -1,4 +1,4 @@
-1、jQuery-zclip是一个复制内容到剪贴板的jQuery插件，使用它我们不用考虑
+﻿1、jQuery-zclip是一个复制内容到剪贴板的jQuery插件，使用它我们不用考虑
 不同浏览器和浏览器版本之间的兼容问题。jQuery-zclip插件需要Flash的支持，
 使用时记得安装Adobe Flash Player。
 zclip下载地址：http://www.steamdev.com/zclip/z
@@ -31,5 +31,5 @@ afterCopy:复制之后要做的function;
 
 提供了3个方法
 show:$(selected).zclip('show');//复制功能有效
-hide:$(selected).zclip('hide');//复制功能无效
+hide:$(selected).zclip('hide');//复制功能无效   
 remove:$(selected).zclip('remove');//完全移除复制功能
