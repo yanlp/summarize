@@ -45,7 +45,6 @@ $ yo jdm
      该处命名可以与根目录相同不会覆盖本目录，也可以写其他的名字
 <img src="img/yoJdm.png"></img>
 
-```
 如果提醒出现
 ```
 <b>I`m all done. Running <i>npm install</i> <br> 
