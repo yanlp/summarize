@@ -83,11 +83,11 @@ $ gulp img
 
 <img src="img/gulp_img.png" alt="生成图片"></img>
 ```
-```
 <b>pS:</b>
       控制@2x类型的图片是否生成可通过更改
 <strong>config.js</strong><font color="red"> imgRetina</font>
       属性值来控制是否生成@2x图片;
+```
 
       2. 压缩所有image
 
