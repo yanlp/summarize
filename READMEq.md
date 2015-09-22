@@ -82,8 +82,10 @@ $ gulp img
          默认生成两种拼接图片：一是以图片所在文件夹的文件夹名命名的.png图片，另一种是，以文件夹命名@2x.png的拼接图,如图示;
 
 命令成功显示：
-<img src="img/img.png" alt="">
+<br>
+<img src="img/img.png" alt=""></img><br>
 文件夹下显示:
+<br>
 <img src="img/gulp_img.png" alt="生成图片"></img>
 <br>
 <b>pS:</b>
