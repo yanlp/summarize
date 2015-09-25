@@ -6,7 +6,7 @@
 
 * **代码示例** ：
 <code css>
-/*padding-top为高宽比=图片高度/图片宽度*100 ex:203(imgh)/640(imgw)*100% = 32%*/
+/\*padding-top为高宽比=图片高度/图片宽度*100 ex:203(imgh)/640(imgw)*100% = 32%\*/
 .item-pic{padding-top: 32%; display: block; position: relative; z-index: 2;} 
 .item-pic img{width: 100%; position: absolute; left: 0; top: 0; z-index: 0;}
 </code>
