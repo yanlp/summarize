@@ -264,6 +264,47 @@
 </code>
 #### 1.2.2 自定义滚动条
 #####自定义firefox浏览器滚动条
-***
-     
 
+----------    
+
+![](img/ie-css-scroll_thumb.gif)
+
+ **webkit内核浏览器的滚动条定制**
+>>CSS
+<code>
+	
+	CSS 注释对应表中的数字
+    ::-webkit-scrollbar              { /* 1 */ }
+    ::-webkit-scrollbar-button       { /* 2 */ }
+    ::-webkit-scrollbar-track        { /* 3 */ }
+    ::-webkit-scrollbar-track-piece  { /* 4 */ }
+    ::-webkit-scrollbar-thumb        { /* 5 */ }
+    ::-webkit-scrollbar-corner       { /* 6 */ }
+    ::-webkit-resizer                { /* 7 */ }
+</code>   
+![](img/scrollbarparts_thumb.png)    
+
+* ::-webkit-scrollbar 
+	*  滚动条整体部分，其中的属性有width,height,background,border（就和一个块级元素一样）等。
+* ::-webkit-scrollbar-button
+	*  滚动条两端的按钮。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。
+* ::-webkit-scrollbar-track        
+	*  外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。 
+* ::-webkit-scrollbar-track-piece        
+	* 内层轨道，滚动条中间部分（除去）。
+* ::-webkit-scrollbar-thumb
+	* 滚动条里面可以拖动的那部分
+* ::-webkit-scrollbar-corner               
+	* 边角
+* ::-webkit-resizer                       
+	* 定义右下角拖动块的样式
+#### 1.2.3 图片定位
+在接触次项目之前一直很纠结怎么才能把跟图片不相干的文字或图片还原设计稿，原来原理是这样的 
+   
++  确定图片的尺寸以
++  确定要定位的dom相对与图片的位置
+	+  量取dom结构在设计稿中相对图片的距离上（下）top、距离左（右）left的实际值，一般绝对定位相对值为 top/left
+	+  top: top/width;
+	+  left:left/height; 
+    
+**功成**
