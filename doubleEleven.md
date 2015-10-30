@@ -22,7 +22,8 @@
 
 根据需求方要求，将轮播设置为循环轮播即 **1-2-3-4-1-2...**类似这种循环播放的效果        
 
->>html结构如下：<code html>
+>>html结构如下：
+><code html>
 
 	<div class="j-scroll-news ">
 		<ul id="newScroll">
