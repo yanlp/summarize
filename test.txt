@@ -2,5 +2,6 @@
 制造冲突
 合并代码  git merge origin/dev_name
 
-
 主分支想要制造的冲突
+
+分支制造的冲突
