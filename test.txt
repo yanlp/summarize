@@ -1,3 +1,5 @@
 创建 git 分支： git branch
 
 合并代码  git merge origin/dev_name
+
+分支制造的冲突
