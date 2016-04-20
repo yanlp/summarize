@@ -1,6 +1,22 @@
 ﻿创建 git 分支： git branch
 制造冲突
 合并代码  git merge origin/dev_name
-
+冲突
 
 主分支想要制造的冲突
+
+
+$ git clone <版本库的网址> <本地目录名> (重命名)
+$ git clone <版本库的网址>
+
+
+λ git remote -v
+origin  https://github.com/yanlp/summarize.git (fetch)
+origin  https://github.com/yanlp/summarize.git (push)
+
+
+
+$ git clone -o jQuery https://github.com/jquery/jquery.git
+$ git remote
+jQuery
+上面命令表示，克隆的时候，指定远程主机叫做jQuery。
